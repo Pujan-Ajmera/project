@@ -92,6 +92,7 @@ const AddItem = () => {
                 <input type="text" name="id" className="form-control border-primary" value={data.id} onChange={handleChange} />
             </div>
             <button className="btn btn-primary btn-block" onClick={handleSubmit}>Submit</button>
+                <p>after submit click on home</p>
         </div>
     );
 };
